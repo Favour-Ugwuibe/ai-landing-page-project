@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama Put Online</title>
+
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-black px-6 md:px-12 py-4">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <img
+                    src="logo.png"
+                    alt="Mama Put Online Logo"
+                    class="w-12 h-12 rounded-full"
+                >
+                <h1 class="text-2xl font-bold text-white">
+                    Mama Put
+                    <span class="text-red-600">Online</span>
+                </h1>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav>
+                <ul class="flex flex-wrap justify-center gap-6">
+                    <li>
+                        <a href="#" class="text-red-600 font-semibold hover:text-white transition">
+                            Products
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text-red-600 font-semibold hover:text-white transition">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text-red-600 font-semibold hover:text-white transition">
+                            Customer Service
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text-red-600 font-semibold hover:text-white transition">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Search Bar -->
+            <div class="flex">
+                <input
+                    type="text"
+                    placeholder="Search food..."
+                    class="px-4 py-2 rounded-l-md focus:outline-none"
+                >
+                <button
+                    class="bg-red-600 text-white px-4 py-2 rounded-r-md hover:bg-red-700 transition"
+                >
+                    Search
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+<!-- HERO SECTION -->
+<section class="w-full min-h-[30vh] flex flex-col md:flex-row bg-white">
+
+    <!-- LEFT SIDE: IMAGE -->
+    <div class="w-full md:w-1/2 h-[300px] md:h-auto">
+
+        <img 
+            src="./images/30+ NIGERIAN SOUPS, STEWS AND SAUCES YOU SHOULD LEARN HOW TO MAKE.jpg" 
+            alt="Delicious Nigerian Stew"
+            class="w-full h-full object-cover"
+        >
+    </div>
+
+    <!-- RIGHT SIDE: TEXT CONTENT -->
+    <div class="w-full md:w-1/2 flex flex-col justify-center items-start p-8 md:p-16 bg-red-50">
+
+        <h1 class="text-3xl md:text-5xl font-extrabold text-black leading-tight">
+            Don’t Miss Out on the Taste of Real Nigerian Home Food!
+        </h1>
+
+        <p class="mt-4 text-gray-700 text-lg">
+            Fresh, hot, and delicious meals delivered straight from Mama’s kitchen to your doorstep.  
+            Experience authentic taste like never before.
+        </p>
+
+        <!-- CTA BUTTONS -->
+        <div class="mt-6 flex gap-4">
+            <button class="bg-red-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-red-700 transition">
+                Order Now
+            </button>
+
+            <button class="border border-red-600 text-red-600 px-6 py-3 rounded-md font-semibold hover:bg-red-600 hover:text-white transition">
+                View Menu
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== FLOATING CART UI (VISUAL ONLY, NO FUNCTION) ===== -->
+<div class="fixed top-4 right-4 bg-red-600 text-white px-4 py-2 rounded-full shadow-lg z-50">
+    Cart: 0
+</div>
+
+<!-- ===== MAIN SECTION (SIDEBAR + PRODUCTS) ===== -->
+<section class="w-full flex flex-col md:flex-row bg-gray-100">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="w-full md:w-1/5 bg-black text-white p-6">
+        <h2 class="text-xl font-bold mb-6 text-red-500">Categories</h2>
+
+        <ul class="space-y-4">
+            <li class="hover:text-red-500 cursor-pointer">Rice Meals</li>
+            <li class="hover:text-red-500 cursor-pointer">Soup & Swallow</li>
+            <li class="hover:text-red-500 cursor-pointer">Beans Special</li>
+            <li class="hover:text-red-500 cursor-pointer">Breakfast</li>
+            <li class="hover:text-red-500 cursor-pointer">Drinks</li>
+            <li class="hover:text-red-500 cursor-pointer">Extras</li>
+        </ul>
+    </aside>
+
+    <!-- RIGHT CONTENT AREA -->
+    <div class="w-full md:w-4/5 p-6">
+
+        <!-- ROW 1 -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Is this Ghana jellof rice or Nigerian jellof_.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Jollof Rice</h3>
+                <p class="text-gray-600">Quantity: 1 plate</p>
+                <p class="text-red-600 font-bold">₦1,500</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/How to Make Nigerian Fried Rice (Party Style Recipe).jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Fried Rice</h3>
+                <p class="text-gray-600">Quantity: 1 plate</p>
+                <p class="text-red-600 font-bold">₦1,800</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Paint our tummies red! Yes we go chop😋 Rice and tomato stew by @igochop.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">White Rice & Stew</h3>
+                <p class="text-gray-600">Quantity: 1 plate</p>
+                <p class="text-red-600 font-bold">₦1,400</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Ofada rice_..delicious ! www.sisiyemmie.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Ofada Rice</h3>
+                <p class="text-gray-600">Quantity: 1 wrap</p>
+                <p class="text-red-600 font-bold">₦2,000</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Egusi soup - KikiFoodies.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Egusi Soup</h3>
+                <p class="text-gray-600">Quantity: Small bowl</p>
+                <p class="text-red-600 font-bold">₦1,200</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Ogbono soup.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Ogbono Soup</h3>
+                <p class="text-gray-600">Quantity: Small bowl</p>
+                <p class="text-red-600 font-bold">₦1,200</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Efo riro.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Efo Riro</h3>
+                <p class="text-gray-600">Quantity: Small bowl</p>
+                <p class="text-red-600 font-bold">₦1,300</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/Nigerian Okra Soup Recipe.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Okra Soup</h3>
+                <p class="text-gray-600">Quantity: Small bowl</p>
+                <p class="text-red-600 font-bold">₦1,100</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/How To Make Fufu From Scratch (Nigerian Fufu).jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Fufu</h3>
+                <p class="text-gray-600">Quantity: 3 wraps</p>
+                <p class="text-red-600 font-bold">₦1,000</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/amala.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Amala</h3>
+                <p class="text-gray-600">Quantity: 3 wraps</p>
+                <p class="text-red-600 font-bold">₦900</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/semo.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Semo</h3>
+                <p class="text-gray-600">Quantity: 3 wraps</p>
+                <p class="text-red-600 font-bold">₦900</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="./images/eba.jpg" class="w-full h-32 object-cover rounded-md mb-3">
+                <h3 class="font-bold text-lg">Eba</h3>
+                <p class="text-gray-600">Quantity: 3 wraps</p>
+                <p class="text-red-600 font-bold">₦800</p>
+                <button class="mt-3 bg-black text-white px-4 py-2 rounded hover:bg-red-600">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== FOOTER SECTION ===== -->
+<footer class="bg-black text-white mt-10">
+
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+        <!-- Brand Info -->
+        <div>
+            <h2 class="text-2xl font-bold">
+                Mama Put <span class="text-red-600">Online</span>
+            </h2>
+            <p class="text-gray-400 mt-3">
+                Delicious Nigerian meals delivered fresh to your doorstep. Taste the comfort of home anywhere, anytime.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+            <h3 class="text-lg font-semibold text-red-500 mb-3">Quick Links</h3>
+            <ul class="space-y-2 text-gray-300">
+                <li class="hover:text-red-500 cursor-pointer">Products</li>
+                <li class="hover:text-red-500 cursor-pointer">Services</li>
+                <li class="hover:text-red-500 cursor-pointer">Customer Service</li>
+                <li class="hover:text-red-500 cursor-pointer">Contact Us</li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+            <h3 class="text-lg font-semibold text-red-500 mb-3">Contact</h3>
+            <p class="text-gray-300">Phone: +234 </p>080 286 239 11
+            <p class="text-gray-300">Email: support@mamaputonline.com</p>
+            <p class="text-gray-300">Location: Umudike, Abia State</p>
+        </div>
+
+        <!-- Social Media -->
+        <div>
+            <h3 class="text-lg font-semibold text-red-500 mb-3">Follow Us</h3>
+
+            <div class="flex flex-col space-y-2 text-gray-300">
+                <a href="#" class="hover:text-red-500">Facebook</a>
+                <a href="#" class="hover:text-red-500">Instagram</a>
+                <a href="#" class="hover:text-red-500">TikTok</a>
+                <a href="#" class="hover:text-red-500">WhatsApp</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-700 text-center py-4 text-gray-500 text-sm">
+        &copy; 2026 Mama Put Online. All rights reserved.
+    </div>
+
+</footer>
+
+
+</body>
+</html>

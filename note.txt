@@ -1,0 +1,119 @@
+PROMPT 1 — HEADER DESIGN TEXT
+
+Design a modern navigation header for a food delivery website called “Mama Put Online.”
+
+Place the brand logo at the top-left corner.
+Next to the logo, display the brand name: Mama Put Online (with “Online” highlighted in red).
+Create a horizontal navigation menu with the following items:
+Products
+Services
+Customer Service
+Contact Us
+Add a search bar on the top-right corner with placeholder text:
+“Search for your favourite meals…”
+Use a dark (black or deep charcoal) background for the header.
+Menu text should be red with hover effects changing to white.
+Ensure the layout is responsive and clean for mobile and desktop.
+
+
+PROMPT 2 — HERO SECTION DESIGN TEXT
+
+Create a hero section below the header for the Mama Put Online landing page.
+
+The hero section should occupy at least 30% of the page height and full width.
+Split the section into two equal vertical parts:
+Left Side:
+Display a large image of a steaming, delicious Nigerian soup or stew.
+Use a placeholder image link (to be replaced later).
+Right Side:
+Add a bold, large headline:
+“Don’t Miss Out on Authentic Nigerian Home Food!”
+Add a short supporting paragraph:
+Fresh, hot, and delicious meals made with love from Mama’s kitchen and delivered straight to your doorstep.
+Add two call-to-action buttons:
+Order Now (primary button, red background)
+View Menu (outlined button)
+Use a clean, modern food delivery style with strong visual hierarchy.
+
+
+PROMPT 3 — MAIN PRODUCT + SIDEBAR SECTION TEXT
+
+Design the main content section for the Mama Put Online website.
+
+Split the section into two parts:
+Left Side (Sidebar):
+
+Create a vertical category menu with:
+
+Rice Meals
+Soup & Swallow
+Beans Special
+Breakfast
+Drinks
+Extras
+
+Style it as a dark sidebar with red highlight hover effects.
+
+Right Side (Product Grid):
+
+Create a product display area arranged in:
+
+3 rows
+4 product cards per row
+
+Each product card must include:
+
+Product image placeholder
+Bold product name
+Quantity description
+Price in Nigerian Naira (₦)
+An “Add to Cart” button (visual only)
+
+Example product format:
+
+Jollof Rice — Quantity: 1 plate — ₦1,500
+Egusi Soup — Quantity: Small bowl — ₦1,200
+Amala — Quantity: 3 wraps — ₦900
+
+Ensure cards are clean, modern, and evenly spaced using a grid layout.
+
+
+PROMPT 4 — CART + FOOTER EXPERIENCE DESIGN TEXT
+
+Enhance the Mama Put Online page with additional UI features.
+
+Floating Cart UI:
+Add a floating cart indicator at the top-right corner showing:
+Cart: 0
+Style it as a red rounded badge.
+Product Card Enhancement:
+Each product card must include an “Add to Cart” button.
+Keep design consistent and visually clickable (no functionality required).
+Footer Section:
+
+Create a professional footer with four columns:
+
+Brand Information:
+Mama Put Online
+Short description about delivering fresh Nigerian meals
+Quick Links:
+Products
+Services
+Customer Service
+Contact Us
+Contact Details:
+Phone number
+Email address
+Location: Umudike, Abia State
+Social Media:
+Facebook
+Instagram
+TikTok
+WhatsApp
+
+At the bottom:
+
+Add copyright text:
+© 2026 Mama Put Online. All rights reserved.
+
+Use a dark theme consistent with the header for branding continuity.
